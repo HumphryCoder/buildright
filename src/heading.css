@@ -1,0 +1,12 @@
+.heading {
+    font-size: 56px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: transparent;
+    background-image: linear-gradient(180deg, #E5E5E5, #999999);
+    background-clip: text;
+    position: relative;
+   margin-left: 340px;
+   bottom: 150px;
+    width: 600px;
+}

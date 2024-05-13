@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.sidebar {
+    display: flex;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+}
+
+.menu-section {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    
+}
+
+.menu-section h4 {
+    color: #F4EEEE;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.menu-section li {
+    color: #939393;
+    font-weight: 300;
+    margin-left: 60px;
+    margin-bottom: 31px;
+    font-family: "Inter", sans-serif;
+}
+
+.link {
+    color: #939393;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #F4EEEE;
+ 
+}
+

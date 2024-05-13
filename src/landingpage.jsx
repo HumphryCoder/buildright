@@ -8,43 +8,42 @@ import "./landing.css"
 function landingpage() {
 
     const links = [
-        { text: 'Docs', url: '/docs' },
+        { text: 'Docs', url: '/docs/introduction' },
         { text: 'Changelog', url: '/docs' },
         { text: 'Pricing', url: '/docs' }
     ]
 
     return (
         <>
-           
-                <Navbar
-                    navStyle={"nav2"}
-                    links={links}
-                    textColor={"white"}
-                    websiteTitle={"BuildRight"}
-                    btnText={"Get Started"}
-                    btnUrl={'/docs'}
-                />
 
-                <span className="bubble1"></span>
-                <span className="bubble2"></span>
-                <span className="bubble3"></span>
+            <Navbar
+                links={links}
+                websiteTitle={"BuildRight"}
+                btnText={"Get Started"}
+                btnUrl={'/docs'}
+                hideOnScroll={true}
+                homeUrl={"/landingpage"}
+            />
 
-                <Heading
-                    headStyle={"text1"}
-                    text={"Developing your own frontend has never been easier"}
-                />
 
-                <Subheading
-                    subStyle={"text1"}
-                    text={"Don't let time-consuming homepage development hold you back. Experience the power of BuildRight and take your projects to new heights. Get started today and revolutionize the way you build homepages!"}
-                    textColor={"#CBC7C7"}
-                    btnText={"Get Started"}
-                />
-            
+
+            <span className="bubble1"></span>
+            <span className="bubble2"></span>
+            <span className="bubble3"></span>
+
+            <Heading
+                text={"Developing your own frontend has never been easier"}
+            />
+
+            <Subheading
+                text={"Don't let time-consuming homepage development hold you back. Experience the power of BuildRight and take your projects to new heights. Get started today and revolutionize the way you build homepages!"}
+                btnText={"Get Started"}
+            />
+
             <Frame />
-            
-            
-            
+
+
+
         </>
     )
 }

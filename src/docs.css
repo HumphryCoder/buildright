@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.content-area {
+    height: 1920px; 
+    overflow-y: auto; 
+    width: 900px; 
+    padding: 200px 100px; 
+    display: flex;
+    justify-content: left; 
+    background-color: #1d1d2077; 
+    margin: 0px auto; 
+    z-index: 4;
+  }
+
+.content-area h1, h2, p {
+   color: white;
+}
+
+.content-area h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.content-area h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content-area p {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+  
+.bubble1docs {
+    height: 300.71px;
+    width: 200px;
+    transform: rotate(20deg);
+    background-color: #24be79;
+    filter: blur(180px);
+    border-radius: 50%;
+
+    display: inline-block;
+    position: fixed;
+    left: 1890px;
+    top: 300px;
+    z-index: -1;
+}
+
+.bubble2docs {
+    height: 354.71px;
+    width: 200px;
+    transform: rotate(45deg);
+    background-color: #24BE78;
+    filter: blur(180px);
+    border-radius: 50%;
+
+    display: inline-block;
+    position: fixed;
+    left: 100px;
+    top: 450px;
+    z-index: -1;
+}
