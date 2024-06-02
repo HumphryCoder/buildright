@@ -3,7 +3,7 @@
 .content-area {
     height: 1920px; 
     overflow-y: auto; 
-    width: 900px; 
+    width: 600px; 
     padding: 200px 100px; 
     display: flex;
     justify-content: left; 
@@ -18,19 +18,19 @@
 
 .content-area h1 {
     font-family: "Inter", sans-serif;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 800;
 }
 
 .content-area h2 {
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 800;
 }
 
 .content-area p {
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
 }
   
