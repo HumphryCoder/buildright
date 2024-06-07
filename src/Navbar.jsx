@@ -25,25 +25,25 @@ const Navbar = ({ links, websiteTitle, btnText, btnUrl, hideOnScroll, homeUrl })
 
     return (
         <nav className={visible ? 'navbar' : 'navbar hidden'}>
-            <ul style={{ display: 'flex', flexDirection: 'row', position: 'relative', marginLeft: "200px", alignItems: 'center' }}>
+            <ul style={{ display: 'flex', flexDirection: 'row', position: 'relative', marginLeft: "140px", alignItems: 'center' }}>
                 <Link to={homeUrl} style={{textDecoration: "none", fontSize: "22px", fontFamily: "Inter, sans-serif", fontWeight: "600", color: "#F4EEEE" }}>{websiteTitle}</Link>
                 {links.map((link, index) => (
                     <li key={index} style={{
                         listStyle: 'none', position: 'relative', marginLeft: "40px", left: "40px", transition: "color 0.3s ease", cursor: "pointer"
-                    }} onMouseEnter={(e) => e.target.style.color = "#24BE78"}
+                    }} onMouseEnter={(e) => e.target.style.color = "#0070C9"}
                         onMouseLeave={(e) => e.target.style.color = "#EFEBEB"} >
                         <Link to={link.url} style={{ color: "#EFEBEB", textDecoration: 'none', fontSize: "18px", fontFamily: "Inter, sans-serif", fontWeight: "400" }}>
                             {link.text}
                         </Link>
                     </li>
                 ))}
-                <Link to={btnUrl} style={{ textDecoration: "none", marginLeft: "auto", marginRight: "100px" }}>
+                <Link to={btnUrl} style={{ textDecoration: "none", marginLeft: "auto", marginRight: "120px" }}>
                     <button
                         style={{
                             width: "170px",
                             height: "35px",
-                            backgroundColor: "#24BE78",
-                            color: "#fff",
+                            backgroundColor: "#00223D",
+                            color: "#0070C9",
                             fontFamily: "Inter, sans-serif",
                             fontWeight: "500",
                             fontSize: "16px",

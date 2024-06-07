@@ -7,8 +7,8 @@
     background-clip: text;
     position: relative;
     margin-left: auto;
-    margin-right: 300px;
-    top: 80px;
+    margin-right: 280px;
+    top: 20px;
     width: 530px;
   
     display: flex;
@@ -18,13 +18,13 @@
     display: flex;
     position: relative;
     margin-left: auto;
-    margin-right: 710px;
+    margin-right: 690px;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 80px;
     width: 120px;
     height: 40px;
-    background-color: #24BE78;
+    background-color: #0070C9;
     color: #fff;
     font-family: Inter, sans-serif;
     font-weight: 500;
