@@ -4,6 +4,7 @@ import Docs from "./docs"
 import Introduction from "./introduction"
 import Button from './docsButton'
 import Cards from './docsCards'
+import { Helmet } from 'react-helmet'
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      </Helmet>
     </>
   )
 }
