@@ -9,8 +9,8 @@ function button() {
                 <h1>Button</h1>
                 <h2>Examples</h2>
                 <ShowcaseCard
-                    Width={"950px"}
-                    Height={"150px"}
+                    Width={"600px"}
+                    Height={"100px"}
                     marginDown={"50px"}
                     marginUp={"40px"}
                 >
@@ -24,8 +24,8 @@ function button() {
                 </ShowcaseCard>
 
                 <ShowcaseCard
-                    Width={"950px"}
-                    Height={"150px"}
+                    Width={"600px"}
+                    Height={"100px"}
                     marginDown={"50px"}
                 >
                     <ul className="btn-container-pink">
@@ -37,8 +37,8 @@ function button() {
                 </ShowcaseCard>
 
                 <ShowcaseCard
-                    Width={"950px"}
-                    Height={"150px"}
+                    Width={"600px"}
+                    Height={"100px"}
                     marginDown={"50px"}
                 >
                     <ul className="btn-container-red">
@@ -50,8 +50,8 @@ function button() {
                 </ShowcaseCard>
 
                 <ShowcaseCard
-                    Width={"950px"}
-                    Height={"150px"}
+                    Width={"600px"}
+                    Height={"100px"}
                     marginDown={"50px"}
                 >
                     <ul className="btn-container-green">

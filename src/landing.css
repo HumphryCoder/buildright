@@ -2,21 +2,21 @@ body {
    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-color: #1D1D20;
+    background-color: #000000;
 }
 
 .bubble1 {
     height: 354.71px;
-    width: 100px;
+    width: 300px;
     transform: rotate(45deg);
     background-color: #24BE78;
     filter: blur(180px);
     border-radius: 50%;
 
     display: inline-block;
-    position: relative;
-    left: 690px;
-    bottom: 300px;
+    position: absolute;
+    left: 800px;
+    top: -300px;
 }
 
 .bubble2 {
@@ -28,9 +28,8 @@ body {
     border-radius: 50%;
 
     display: inline-block;
-    position: relative;
-    left: 1690px;
-    top: 600px;
+    position: absolute;
+    top: 300px;
 }
 
 .bubble3 {
@@ -42,8 +41,9 @@ body {
     border-radius: 50%;
 
     display: inline-block;
-    position: relative;
-    right: 200px;
-    top: 500px;
+    position: absolute;
+    top: 400px;
+    right: 10px;
+    
 }
 
