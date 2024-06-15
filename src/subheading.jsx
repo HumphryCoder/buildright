@@ -6,12 +6,9 @@ const Subheading = ({ text, btnUrl, btnText }) => {
     if (text == null) {
         text = "put your hero text here"
     }
-
-
-
+    
     return (
         <>
-
 
             <h2 className="text1">{text}</h2>
             <Link to={btnUrl} style={{ textDecoration: "none" }}>
