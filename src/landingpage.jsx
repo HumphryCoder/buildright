@@ -9,7 +9,7 @@ function landingpage() {
 
     const links = [
         { text: 'Docs', url: '/docs/introduction' },
-        { text: 'Changelog', url: '/docs' },
+        { text: 'Testing', url: '/testing' },
         { text: 'Pricing', url: '/docs' }
     ]
 

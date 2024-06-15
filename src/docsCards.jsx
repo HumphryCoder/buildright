@@ -1,5 +1,6 @@
 import ShowcaseCard from "./showcaseCard"
-import jordan1Image from "./images/jordan1.png"
+import jordan1Image from "./images/jordan3.png"
+import jordan2Image from "./images/jordan2.png"
 import "./docsCards.css"
 
 function docscards() {
@@ -9,25 +10,41 @@ function docscards() {
                 <h1>Cards</h1>
                 <p>Cards are used to display information to users using text or a image.</p>
 
-                <ShowcaseCard
-                    Width={"950px"}
-                    Height={"900px"}
-                    align={"center"}
-                >
+
+                <div className="exampleCards" >
+
 
                     <div className="ecommerceCard">
                         <img src={jordan1Image} alt="Air Jordan 1 Low blue" />
 
                         <h6>bestseller</h6>
                         <h7>Air Jordan 1 low</h7>
-                        <h8>3 colors</h8>
+                        <h8>2 colors</h8>
+                        <h9>$100</h9>
+
+
+                    </div>
+
+                    <div className="ecommerceCard">
+                        <img src={jordan2Image} alt="Air Jordan 1 Low blue" />
+
+                        <h6>bestseller</h6>
+                        <h7>Air Jordan 1 low</h7>
+                        <h8>2 colors</h8>
                         <h9>$100</h9>
 
 
                     </div>
 
 
-                </ShowcaseCard>
+                </div>
+
+
+
+
+
+
+
             </div>
 
         </>

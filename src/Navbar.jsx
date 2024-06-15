@@ -30,7 +30,7 @@ const Navbar = ({ links, websiteTitle, btnText, btnUrl, hideOnScroll, homeUrl })
                 {links.map((link, index) => (
                     <li key={index} style={{
                         listStyle: 'none', position: 'relative', marginLeft: "40px", left: "40px", transition: "color 0.3s ease", cursor: "pointer"
-                    }} onMouseEnter={(e) => e.target.style.color = "#0070C9"}
+                    }} onMouseEnter={(e) => e.target.style.color = "#F33EAD"}
                         onMouseLeave={(e) => e.target.style.color = "#EFEBEB"} >
                         <Link to={link.url} style={{ color: "#EFEBEB", textDecoration: 'none', fontSize: "18px", fontFamily: "Inter, sans-serif", fontWeight: "400" }}>
                             {link.text}
@@ -42,8 +42,8 @@ const Navbar = ({ links, websiteTitle, btnText, btnUrl, hideOnScroll, homeUrl })
                         style={{
                             width: "170px",
                             height: "35px",
-                            backgroundColor: "#00223D",
-                            color: "#0070C9",
+                            backgroundColor: "#461433",
+                            color: "#F33EAD",
                             fontFamily: "Inter, sans-serif",
                             fontWeight: "500",
                             fontSize: "16px",

@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link, Navigate } from 'react-router-dom'
 import Landingpage from "./landingpage"
 import Docs from "./docs"
 import Introduction from "./introduction"
+import Testing from "./testing"
 import Button from './docsButton'
 import Cards from './docsCards'
 import { Helmet } from 'react-helmet'
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route index element={<Landingpage />} />
           <Route path="landingpage" element={<Landingpage />} />
+          <Route path="testing" element={<Testing />} />
 
           <Route path="docs" element={<Docs />}>
 

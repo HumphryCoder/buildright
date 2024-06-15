@@ -5,19 +5,30 @@
     justify-content: left;
     align-items: left;
     flex-direction: column;
-    width: 464px;
-    height: 660px;
+    width: 344px;
+    height: 655px;
     border-radius: 15px;
-    background-color: #1D1D20;
-    border: 1px solid #2F2D2D;
-    
-    
+    background-color: #040404;
+    border: 1px solid #0a0a0a;
+    transition: transform 0.1s ease-in;
+
+}
+
+.ecommerceCard:hover {
+    transform: scale(1.05);
+}
+
+@keyframes cardAnim {
+    0% {
+        transform: scale(1);
+        /* Initial scale for the animation */
+    }
 }
 
 .ecommerceCard img {
     margin-top: 20px;
-    height: 480px;
-    width: 419px;
+    height: 475px;
+    width: 315px;
     border-radius: 10px;
     display: flex;
     justify-self: center;
@@ -25,11 +36,23 @@
     margin-bottom: -30px;
 }
 
-.ecommerceCard h6, h7, h8, h9 {
-  margin-bottom: 10px;
-  margin-left: 20px;
+.ecommerceCard h6,
+h7,
+h8,
+h9 {
+    margin-bottom: 10px;
+    margin-left: 20px;
 
-  
+
+}
+
+
+.exampleCards {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    
 }
 
 .ecommerceCard h6 {
@@ -59,4 +82,3 @@
     font-family: "Inter", sans-serif;
     font-weight: 200;
 }
-
